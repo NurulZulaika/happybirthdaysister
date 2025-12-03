@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Kakak - Page 3</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(#ffe3f0, #fff4fa);
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 430px;
+      margin: auto;
+      padding: 25px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      animation: fadeIn 1.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Floating hearts */
+    .heart {
+      position: absolute;
+      width: 30px;
+      opacity: 0.8;
+      animation: floatUp 6s linear infinite;
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(120%); opacity: 0; }
+      25% { opacity: 1; }
+      100% { transform: translateY(-120%); opacity: 0; }
+    }
+
+    .heart:nth-child(1) { left: 20px; animation-delay: 0s; }
+    .heart:nth-child(2) { left: 80px; animation-delay: 2s; }
+    .heart:nth-child(3) { right: 60px; animation-delay: 1s; }
+    .heart:nth-child(4) { right: 10px; animation-delay: 3s; }
+
+    h2 {
+      color: #ff4f8b;
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+
+    .img-round {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 15px auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      animation: pop 1.4s ease;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0.6); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    p {
+      color: #555;
+      font-size: 16px;
+      line-height: 1.7;
+      margin-top: 10px;
+      animation: fadeIn 2s ease;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ff4f8b;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 14px;
+      text-decoration: none;
+      margin-top: 22px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+
+      <img class="heart" src="image/heart.png" />
+      <img class="heart" src="image/heart.png" />
+      <img class="heart" src="image/heart.png" />
+      <img class="heart" src="image/heart.png" />
+
+      <h2>Ucapan Special 🎀</h2>
+
+      <img src="image/gambar11.jpg" class="img-round" />
+
+      <p>
+        Selamat hari jadi Aisyah💗 Aku mungkin tak pandai dalam berkata-kata dan aku mungkin bukan 
+        adik yang terbaik untuk hg tpi i will make you proud with me.
+        kalau hg rasa takda yang nampak pengorbanan hg,aku ada,aku sentiasa nampak pengorbanan hg,aku mungkin jarang tunjuk
+        yang aku care tapi aku sentiasa nampak apa yg hg lalui walaupun aku tak lalui pun tapi aku sentiasa dengar apa yang hg cerita
+        and aku tahu hg banyak pendam. Banyak benda hg hadap seorang-seorang. Banyak kali hg rasa nak giveup tu, 
+        tapi aku tau hg kuat untuk laluinya.
+        Kadang aku rasa deserve dunia yang jauh lebih lembut daripada apa yang hg pernah lalui.
+        dan aku sentiasa selitkan doa untuk apa pun yang pernah buat hati hg berat, Allah ringankan.
+        Apa pun yang pernah buat hg kecewa, Allah gantikan dengan sesuatu yang buat hg senyum balik.
+        Aku nak hg hidup dalam ketenangan, dalam bahagia yang tak berpura-pura, dalam cinta yang tak pernah buat hg ragu.
+        mestilah aku nak tengok hg capai titik tertinggi dalam hidup hg,mestilah aku nak tengok hg capai semua impian hg,
+        aku nak hg bahagia dengan hidup hg,semoga aku boleh balas semua jasa hg untuk aku.
+        <br><br>
+        Semoga Allah balas semua kebaikan hg yg hg dah korbankan untuk aku. Love you, 💗
+      </p>
+
+      <a href="index1.html" class="btn">⬅ Back</a>
+      <a href="index3.html" class="btn">Next ➜</a>
+
+    </div>
+  </div>
+</body>
+</html>

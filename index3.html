@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Kakak - Final Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(#ffe1ef, #fff7fb);
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .container {
+      max-width: 430px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 22px;
+      padding: 30px 22px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      animation: fadeIn 1.5s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Confetti */
+    .confetti {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background: #ff4f8b;
+      border-radius: 3px;
+      animation: fall 5s linear infinite;
+      opacity: 0.8;
+    }
+
+    @keyframes fall {
+      0% { transform: translateY(-50px) rotate(0); opacity: 1; }
+      100% { transform: translateY(400px) rotate(360deg); opacity: 0; }
+    }
+
+    .confetti:nth-child(1) { left: 20px; animation-delay: 0s; }
+    .confetti:nth-child(2) { left: 80px; animation-delay: 1s; background:#ff9ecf; }
+    .confetti:nth-child(3) { left: 150px; animation-delay: 2s; background:#ff6fa3; }
+    .confetti:nth-child(4) { left: 220px; animation-delay: 0.5s; }
+    .confetti:nth-child(5) { left: 300px; animation-delay: 1.5s; background:#ff9ed1; }
+
+    h2 {
+      color: #ff4f8b;
+      font-size: 28px;
+      margin-bottom: 10px;
+      animation: pop 1.5s ease;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0.6); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .big-heart {
+      font-size: 65px;
+      margin: 15px 0;
+      animation: heartbeat 1.7s infinite ease-in-out;
+    }
+
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    p {
+      color: #555;
+      font-size: 16px;
+      line-height: 1.7;
+      margin-top: 10px;
+      animation: fadeIn 2s ease;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ff4f8b;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 14px;
+      text-decoration: none;
+      margin-top: 25px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+
+      <h2>Last But Not Least 🎀</h2>
+
+      <div class="big-heart">💖</div>
+
+      <p>
+        ini page terakhir aku buat untuk hg. Walaupun simple, aku harap
+        setiap page ni bagi hg rasa dihargai. Sebab bagi aku… hg memang
+        kakak yang special untuk aku .
+        <br><br>
+        Aku sayang hg tau. Terima kasih untuk semuanya. Semoga birthday hg
+        tahun ni penuh benda-benda manis dan memori yang cantik.
+        <br><br>
+        Happy Birthday once again, kak. 💗🌸
+      </p>
+
+      <a href="index2.html" class="btn">⬅ Back</a>
+    </div>
+  </div>
+
+</body>
+</html>
